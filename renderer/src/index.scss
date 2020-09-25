@@ -1,0 +1,31 @@
+// @import "tailwindcss/base";
+
+// @import "tailwindcss/components";
+
+// @import "tailwindcss/utilities";
+
+@import "https://rsms.me/inter/inter.css";
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.controls {
+    height: 40px;
+    padding: 1rem;
+}
+
+.pad {
+    height: 100%;
+}
