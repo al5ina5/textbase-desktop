@@ -1,9 +1,3 @@
-// @import "tailwindcss/base";
-
-// @import "tailwindcss/components";
-
-// @import "tailwindcss/utilities";
-
 @import "https://rsms.me/inter/inter.css";
 
 body {
@@ -13,6 +7,16 @@ body {
 
 ::-webkit-scrollbar {
     display: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.padded {
+    padding: 6rem 2rem;
 }
 
 .app {
@@ -26,6 +30,32 @@ body {
     padding: 1rem;
 }
 
+.body {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
 .pad {
     height: 100%;
+    width: 100%;
+    background-color: red;
+}
+
+.preview {
+    z-index: 99;
+    position: absolute;
+    background-color: white;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+
+    .close {
+        position: absolute;
+        z-index: 50;
+        padding: 1rem;
+        top: 0;
+        right: 0;
+    }
 }

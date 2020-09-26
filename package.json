@@ -29,9 +29,11 @@
     "autoprefixer": "^10.0.0",
     "electron-is-dev": "^1.1.0",
     "electron-next": "^3.1.5",
+    "framer-motion": "^2.7.5",
     "postcss": "^8.0.9",
     "reset-css": "^5.0.1",
     "sass": "^1.26.11",
+    "showdown": "^1.9.1",
     "tailwindcss": "^1.8.10"
   },
   "license": "MIT"
